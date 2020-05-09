@@ -1,0 +1,390 @@
+body{
+	background-image: url(img/roses.jpg);
+	font-size: 15px;
+}
+
+.title{
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 18px;
+	  border-bottom-width: 2px;
+	  border-bottom-color: #ccc;
+	  border-bottom-style: solid;
+	  margin: 0 auto;
+	  background-color: #fff;
+	  text-align: center;
+	  width: 50%;
+	  padding: 10px;
+}
+
+.body{
+	text-align: center;
+	
+
+}
+/*Hongjoong start*/
+.hongjoong{
+	height: 300px;
+	width: 225x;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	text-decoration:none;
+	white-space: nowrap;
+	background-color: white;
+}
+#hj-img{
+	height: 180px;
+	width: 225px;
+	background-image: url(img/orchid.jpg);
+}
+
+#hj-img:hover {
+	height: 180px;
+	width: 225px;
+	background-image: url(img/hongjoong.jpg); 
+}
+.hj-title:hover{
+	font-size: 0;
+}
+
+.hj-title:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+
+}
+.hj-text:hover{
+	font-size: 0;
+
+}
+
+.hj-text:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+	white-space: pre-wrap;
+}
+
+
+
+
+
+/*Hongjoong end*/
+
+/*Seonghwa start*/
+
+.seonghwa{
+	height: 300px;
+	width: 225x;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	text-decoration:none;
+	background-color: white;
+}
+
+#sh-img{
+	height: 180px;
+	width: 225px;
+	background-image: url(img/peony.jpg);
+}
+
+#sh-img:hover {
+	height: 180px;
+	width: 225px;
+	background-image: url(img/seonghwa.jpg); 
+}
+
+.sh-title:hover{
+	font-size: 0;
+}
+
+.sh-title:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+}
+.sh-text:hover{
+	font-size: 0;
+}
+.sh-text:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+	white-space: pre-wrap;
+}
+
+/*Seonghwa end*/
+
+/*Yunho start*/
+
+.yunho{
+	height: 300px;
+	width: 225x;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	text-decoration:none;
+	background-color: white;
+}
+#yh-img{
+	height: 180px;
+	width: 225px;
+	background-image: url(img/daffodil.jpg);
+}
+
+#yh-img:hover {
+	height: 180px;
+	width: 225px;
+	background-image: url(img/yunho.jpg); 
+}
+.yh-title:hover{
+	font-size: 0;
+}
+
+.yh-title:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+}
+.yh-text:hover{
+	font-size: 0;
+}
+.yh-text:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+	white-space: pre-wrap;
+}
+
+/*Yunho end*/
+
+/*Jongho start*/
+
+.jongho{
+	height: 300px;
+	width: 225x;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	text-decoration:none;
+	background-color: white;
+}
+#jh-img{
+	height: 180px;
+	width: 225px;
+	background-image: url(img/hydrangea.jpg);
+}
+
+#jh-img:hover {
+	height: 180px;
+	width: 225px;
+	background-image: url(img/jongho.jpg); 
+}
+.jh-title:hover{
+	font-size: 0;
+}
+
+.jh-title:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+}
+.jh-text:hover{
+	font-size: 0;
+}
+.jh-text:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+	white-space: pre-wrap;
+}
+
+/*Jongho end*/
+
+/*Mingi start*/
+
+.mingi{
+	height: 300px;
+	width: 225x;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	text-decoration:none;
+	background-color: white;
+}
+#mg-img{
+	height: 180px;
+	width: 225px;
+	background-image: url(img/sunflower.jpg);
+}
+
+#mg-img:hover {
+	height: 180px;
+	width: 225px;
+	background-image: url(img/mingi.jpg); 
+}
+.mg-title:hover{
+	font-size: 0;
+}
+
+.mg-title:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+}
+.mg-text:hover{
+	font-size: 0;
+}
+.mg-text:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+	white-space: pre-wrap;
+}
+
+/*Mingi end*/
+
+/*Yeosang start*/
+
+.yeosang{
+	height: 300px;
+	width: 225x;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	text-decoration:none;
+	background-color: white;
+}
+#ys-img{
+	height: 180px;
+	width: 225px;
+	background-image: url(img/gardenia.jpg);
+}
+
+#ys-img:hover {
+	height: 180px;
+	width: 225px;
+	background-image: url(img/yeosang.jpg); 
+}
+.ys-title:hover{
+	font-size: 0;
+}
+
+.ys-title:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+}
+
+.ys-text:hover{
+	font-size: 0;
+}
+.ys-text:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+	white-space: pre-wrap;
+}
+
+/*Yeosang end*/
+
+/*San start*/
+
+
+.san{
+	height: 300px;
+	width: 225x;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	text-decoration:none;
+	background-color: white;
+} 
+#san-img{
+	height: 180px;
+	width: 225px;
+	background-image: url(img/lily.jpg);
+}
+
+#san-img:hover {
+	height: 180px;
+	width: 225px;
+	background-image: url(img/san.jpg); 
+}
+.san-title:hover{
+	font-size: 0;
+}
+
+.san-title:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+}
+.san-text:hover{
+	font-size: 0;
+}
+.san-text:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+	white-space: pre-wrap;
+}
+
+/*San end*/
+
+/*Wooyoung start*/
+
+.wooyoung{ 
+	height: 300px;
+	width: 225x;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	background-color: white;
+	text-decoration:none;
+}
+#wy-img{
+	height: 180px;
+	width: 225px;
+	background-image: url(img/chrysanthemum.jpg);
+}
+
+#wy-img:hover {
+	height: 180px;
+	width: 225px;
+	background-image: url(img/wooyoung.jpg); 
+}
+.wy-title:hover{
+	font-size: 0;
+}
+
+.wy-title:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+}
+.wy-text:hover{
+	font-size: 0;
+}
+.wy-text:hover:after{
+	content: attr(data-hover);
+	font-size: 15px;
+	white-space: pre-wrap;
+}
+
+/*Wooyoung end*/
+
+
+/*Content*/
+
+.hj-content, .sh-content, .yh-content, .jh-content,.mg-content,.ys-content,
+.san-content,.wy-content{
+	padding: 10px;
+}
+
+.hj-title,.sh-title, .yh-title, .jh-title,.mg-title,.ys-title,
+.san-title,.wy-title{
+	font-weight: 900;
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+.hj-text, .sh-text, .yh-text, .jh-text,.mg-text,.ys-text,
+.san-text,.wy-text{
+	text-align: left;
+}
